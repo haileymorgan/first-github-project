@@ -1,3 +1,17 @@
-* {
-    color: brown;
+body{
+    background-color:bisque
+}
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkred;
+    border-radius: 10px;
+    background-color: darkkhaki;
+}
+h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkred;
+    background-color: darkkhaki;
+    border-radius: 10px;
 }
