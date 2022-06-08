@@ -1,17 +1,20 @@
 body{
-    background-color:bisque
+    background-color:black
 }
 h1 {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
     color: darkred;
     border-radius: 10px;
-    background-color: darkkhaki;
+    font-size: 100px;
+    font-weight: bold;
+    padding-left: 200px;
 }
 h2 {
+    font-size: 90px;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    color: darkred;
-    background-color: darkkhaki;
+    font-family:Arial, Helvetica, sans-serif;
+    color:antiquewhite;
     border-radius: 10px;
+    font-weight: bold;
 }
