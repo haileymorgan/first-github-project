@@ -1,20 +1,23 @@
-body{
-    background-color:black
+body {
+  background-color: black;
 }
 h1 {
-    text-align: left;
-    font-family:Arial, Helvetica, sans-serif;
-    color: darkred;
-    border-radius: 10px;
-    font-size: 100px;
-    font-weight: bold;
-    padding-left: 200px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkred;
+  border-radius: 10px;
+  font-size: 100px;
+  font-weight: bold;
+  padding-left: 200px;
 }
 h2 {
-    font-size: 90px;
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    color:antiquewhite;
-    border-radius: 10px;
-    font-weight: bold;
+  font-size: 90px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+  border-radius: 10px;
+  font-weight: bold;
+}
+ul {
+    color: antiquewhite;
 }
