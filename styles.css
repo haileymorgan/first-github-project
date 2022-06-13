@@ -5,11 +5,12 @@ a {
   color: antiquewhite;
   text-decoration: none;
 }
-a:hover {color: darkred;}
+a:hover {color: darkmagenta;
+   margin-bottom: 16px;}
 h1 {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-  color: darkred;
+  color: darkmagenta;;
   border-radius: 10px;
   font-size: 100px;
   font-weight: bold;
@@ -41,4 +42,14 @@ button {
 ul{
   list-style: none;
   text-align: center;
+}
+
+.homeimage {
+  max-width: 360px;
+  max-height: 600px;
+  
+}
+.image{
+  display: flex;
+  justify-content: center;
 }
