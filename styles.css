@@ -13,12 +13,12 @@ h1 {
   text-align: left;
   color: darkmagenta;
   border-radius: 10px;
-  font-size: 130px;
+  font-size: 100px;
   font-weight: bold;
   display: flex;
 }
 h2 {
-  font-size: 120px;
+  font-size: 90px;
   text-align: center;
   color: antiquewhite;
   border-radius: 10px;
@@ -27,12 +27,12 @@ h2 {
 h3 {
   color: antiquewhite;
   margin-top: 15px;
-  font-size: 44px;
+  font-size: 32px;
   text-align: center;
 }
 .frontend{
   color: darkmagenta;
-  font-size: 44px;
+  font-size: 32px;
 }
 button {
   border: 1px solid;
@@ -43,8 +43,8 @@ button {
 }
 
 .homeimage {
-  max-width: 700px;
-  max-height: 900px;
+  max-width: 500px;
+  max-height: 700px;
 }
 .image {
   display: flex;
@@ -57,7 +57,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 32px;
+  font-size: 24px;
 }
 /*Contact Images*/
 
@@ -71,13 +71,26 @@ p {
 }
 .contact-image{
   margin: 16px;
+  transition: all 300ems;
 }
+.contact-image:hover {
+  filter: brightness(80%);
+  opacity: 0.86;
+  transform: scale(1.2);
+}
+
 /* Language Images */
 
 .logo-image{
   width: 100%;
   max-width: 100px;
-  
+  transition: all 300ems;
+}
+.logo-image:hover {
+  filter: brightness(80%);
+  opacity: 0.86;
+  transform: scale(1.3);
+  transition: all 300ems;
 }
 .logo-placement{
   margin-top: 24px;
