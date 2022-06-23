@@ -16,6 +16,7 @@ h1 {
   font-size: 100px;
   font-weight: bold;
   display: flex;
+  animation: animate-header 650ms backwards ease;
 }
 h2 {
   font-size: 90px;
@@ -23,12 +24,22 @@ h2 {
   color: antiquewhite;
   border-radius: 10px;
   font-weight: bold;
+  animation: animate-header 650ms backwards ease;
+}
+@keyframes animate-header {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 h3 {
   color: antiquewhite;
   margin-top: 15px;
   font-size: 32px;
   text-align: center;
+  animation: animate-header 650ms backwards ease;
 }
 .frontend{
   color: darkmagenta;
@@ -45,6 +56,15 @@ button {
 .homeimage {
   max-width: 500px;
   max-height: 700px;
+  animation: animate-homeimg 800ms backwards;
+}
+@keyframes animate-homeimg {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 .image {
   display: flex;
@@ -58,6 +78,7 @@ p {
   justify-content: center;
   align-items: center;
   font-size: 24px;
+  animation: animate-header 650ms backwards ease;
 }
 /*Contact Images*/
 
@@ -84,13 +105,13 @@ p {
 .logo-image{
   width: 100%;
   max-width: 80px;
-  transition: all 300ems;
+  
 }
 .logo-image:hover {
   filter: brightness(80%);
   opacity: 0.86;
-  transform: scale(1.3);
-  transition: all 400ems;
+  transform: scale(0.9);
+  transition: all 400ems ease;
 }
 .logo-placement{
   margin-top: 24px;
@@ -99,6 +120,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.logo-name{
+  color: antiquewhite;
 }
 
 /* Projects */
