@@ -49,6 +49,7 @@ h2 {
 }*/
 .navbar{
   max-width: 750px;
+  margin-top: 30px;
 }
 .nav, a {
   text-decoration: none;
