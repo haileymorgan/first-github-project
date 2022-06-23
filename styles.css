@@ -6,8 +6,14 @@
   font-weight: bolder;
   line-height: 1.5;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: black;
+}
+.text-purple{
+  color: darkmagenta;
 }
 h1 {
   text-align: left;
@@ -26,14 +32,31 @@ h2 {
   font-weight: bold;
   animation: animate-header 650ms backwards ease;
 }
-@keyframes animate-header {
+.id-photo {
+  max-width: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* @keyframes animate-header {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
   }
+}*/
+.navbar{
+  max-width: 750px;
 }
+.nav, a {
+  text-decoration: none;
+  font-size: 14px;
+  color: antiquewhite;
+  margin: 0 12px;
+}
+
 h3 {
   color: antiquewhite;
   margin-top: 15px;
@@ -58,7 +81,7 @@ button {
   max-height: 700px;
   animation: animate-homeimg 800ms backwards;
 }
-@keyframes animate-homeimg {
+/* @keyframes animate-homeimg {
   0% {
     transform: scale(0);
   }
@@ -66,20 +89,21 @@ button {
     transform: scale(1);
   }
 }
+*/
 .image {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-p {
+.intro {
   margin-top: 18px;;
   color: antiquewhite;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
-  font-size: 24px;
+  font-size: 20px;
   animation: animate-header 650ms backwards ease;
 }
+
 /*Contact Images*/
 
 .contact-images{
@@ -128,3 +152,9 @@ p {
 
 /* Projects */
 
+
+/* FOOTER */
+.footer-wrapper{
+ text-align: center;
+ margin-top: 40px;
+}
