@@ -13,11 +13,11 @@ body {
   background-color: black;
 }
 .text-purple{
-  color: darkmagenta;
+  color: #6dbaca;
 }
 h1 {
   text-align: left;
-  color: darkmagenta;
+  color: #4fa9bc;
   border-radius: 10px;
   font-size: 100px;
   font-weight: bold;
@@ -25,12 +25,20 @@ h1 {
   animation: animate-header 650ms backwards ease;
 }
 h2 {
-  font-size: 90px;
+  font-size: 70px;
   text-align: center;
   color: antiquewhite;
   border-radius: 10px;
   font-weight: bold;
   animation: animate-header 650ms backwards ease;
+}
+#name {
+  margin-bottom: 25;
+}
+p {
+  font-size: 24px;
+  color: antiquewhite;
+  text-align: center;
 }
 .id-photo {
   max-width: 150px;
@@ -38,6 +46,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
 }
 /* @keyframes animate-header {
   0% {
@@ -48,8 +57,10 @@ h2 {
   }
 }*/
 .navbar{
-  max-width: 750px;
-  margin-top: 30px;
+  max-width: 1200px;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
 }
 .nav, a {
   text-decoration: none;
@@ -57,7 +68,20 @@ h2 {
   color: antiquewhite;
   margin: 0 12px;
 }
-
+ul {
+  display: flex;
+  max-width: 300px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+  
+}
+li:hover {
+  color: #4fa9bc;
+}
 h3 {
   color: antiquewhite;
   margin-top: 15px;
@@ -66,7 +90,7 @@ h3 {
   animation: animate-header 650ms backwards ease;
 }
 .frontend{
-  color: darkmagenta;
+  color: #4fa9bc;
   font-size: 32px;
 }
 button {
@@ -135,7 +159,7 @@ button {
 .logo-image:hover {
   filter: brightness(80%);
   opacity: 0.86;
-  transform: scale(0.9);
+  transform: scale(1.2);
   transition: all 400ems ease;
 }
 .logo-placement{
@@ -169,6 +193,11 @@ filter: brightness(80%);
  text-align: center;
  margin-top: 40px;
  margin-bottom: 30px;
+}
+.backtomain {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 60px;
 }
 
 /*MOBILE*/
